@@ -1,0 +1,20 @@
+[tool.basedpyright]
+venvPath="../"
+venv="venv"
+typeCheckingMode = "basic"
+reportUnusedImport = false
+reportUnusedVariable = false
+reportUnnecessaryCast = false
+reportUnnecessaryIsInstance = false
+reportArgumentType = false
+reportCallIssue = false
+reportRedeclaration = "warning"
+# Maps "src" as the root for all files within it
+executionEnvironments = [
+  { root = "src" }
+]
+
+[tool.ruff]
+# Ignore F401 (Unused import)
+ignore = ["F401", "F841", "E741", "E402"]
+src = ["src"]

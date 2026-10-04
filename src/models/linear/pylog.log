@@ -1,0 +1,93 @@
+inc_nord01_2025-08-21_10-56-05
+
+n_machines=20
+nb_nodes=50
+lr=1e-05
+tol=0.001
+nb_epochs=80
+bsz=512
+nb_batch_per_epoch=2000
+nb_batch_eval=300
+gpu_id=0
+
+
+Epoch: 0, tot time: 0.083day, epoch time: 119.175min, cptl time: 33.230min, L_train: 42.384, L_base: 47.921, L_random: 47.856, update: True
+Epoch: 1, tot time: 0.170day, epoch time: 118.187min, cptl time: 32.598min, L_train: 41.575, L_base: 42.381, L_random: 47.859, update: True
+Epoch: 2, tot time: 0.257day, epoch time: 117.312min, cptl time: 32.285min, L_train: 41.138, L_base: 41.573, L_random: 47.860, update: True
+Epoch: 3, tot time: 0.344day, epoch time: 117.303min, cptl time: 32.426min, L_train: 40.886, L_base: 41.137, L_random: 47.858, update: True
+Epoch: 4, tot time: 0.431day, epoch time: 117.294min, cptl time: 32.408min, L_train: 40.707, L_base: 40.885, L_random: 47.858, update: True
+Epoch: 5, tot time: 0.517day, epoch time: 117.109min, cptl time: 32.244min, L_train: 40.565, L_base: 40.709, L_random: 47.864, update: True
+Epoch: 6, tot time: 0.604day, epoch time: 117.136min, cptl time: 32.243min, L_train: 40.442, L_base: 40.562, L_random: 47.858, update: True
+Epoch: 7, tot time: 0.691day, epoch time: 117.089min, cptl time: 32.255min, L_train: 40.374, L_base: 40.441, L_random: 47.861, update: True
+Epoch: 8, tot time: 0.777day, epoch time: 117.100min, cptl time: 32.246min, L_train: 40.313, L_base: 40.379, L_random: 47.864, update: True
+Epoch: 9, tot time: 0.864day, epoch time: 116.951min, cptl time: 32.211min, L_train: 40.256, L_base: 40.313, L_random: 47.862, update: True
+Epoch: 10, tot time: 0.951day, epoch time: 117.039min, cptl time: 32.225min, L_train: 40.207, L_base: 40.255, L_random: 47.859, update: True
+Epoch: 11, tot time: 1.038day, epoch time: 117.823min, cptl time: 32.611min, L_train: 40.170, L_base: 40.204, L_random: 47.861, update: True
+Epoch: 12, tot time: 1.125day, epoch time: 118.435min, cptl time: 32.769min, L_train: 40.112, L_base: 40.169, L_random: 47.862, update: True
+Epoch: 13, tot time: 1.212day, epoch time: 117.483min, cptl time: 32.546min, L_train: 40.093, L_base: 40.110, L_random: 47.859, update: True
+Epoch: 14, tot time: 1.301day, epoch time: 120.511min, cptl time: 34.105min, L_train: 40.063, L_base: 40.096, L_random: 47.857, update: True
+Epoch: 15, tot time: 1.394day, epoch time: 125.021min, cptl time: 38.135min, L_train: 40.038, L_base: 40.067, L_random: 47.864, update: True
+Epoch: 16, tot time: 1.488day, epoch time: 124.605min, cptl time: 37.500min, L_train: 39.992, L_base: 40.035, L_random: 47.863, update: True
+Epoch: 17, tot time: 1.575day, epoch time: 117.822min, cptl time: 32.565min, L_train: 39.989, L_base: 39.995, L_random: 47.860, update: True
+Epoch: 18, tot time: 1.664day, epoch time: 121.385min, cptl time: 33.328min, L_train: 39.988, L_base: 39.991, L_random: 47.860, update: True
+Epoch: 19, tot time: 1.754day, epoch time: 121.195min, cptl time: 32.834min, L_train: 39.965, L_base: 39.984, L_random: 47.857, update: True
+Epoch: 20, tot time: 1.847day, epoch time: 126.810min, cptl time: 39.745min, L_train: 39.933, L_base: 39.968, L_random: 47.867, update: True
+Epoch: 21, tot time: 1.940day, epoch time: 122.919min, cptl time: 36.391min, L_train: 39.915, L_base: 39.930, L_random: 47.858, update: True
+Epoch: 22, tot time: 2.029day, epoch time: 120.578min, cptl time: 36.639min, L_train: 39.907, L_base: 39.918, L_random: 47.863, update: True
+Epoch: 23, tot time: 2.120day, epoch time: 120.627min, cptl time: 34.741min, L_train: 39.895, L_base: 39.906, L_random: 47.857, update: True
+Epoch: 24, tot time: 2.209day, epoch time: 120.653min, cptl time: 32.832min, L_train: 39.882, L_base: 39.898, L_random: 47.860, update: True
+Epoch: 25, tot time: 2.296day, epoch time: 117.898min, cptl time: 32.840min, L_train: 39.869, L_base: 39.882, L_random: 47.863, update: True
+Epoch: 26, tot time: 2.383day, epoch time: 117.601min, cptl time: 32.689min, L_train: 39.856, L_base: 39.868, L_random: 47.863, update: True
+Epoch: 27, tot time: 2.472day, epoch time: 119.877min, cptl time: 32.601min, L_train: 39.835, L_base: 39.856, L_random: 47.856, update: True
+Epoch: 28, tot time: 2.559day, epoch time: 117.373min, cptl time: 32.535min, L_train: 39.836, L_base: 39.838, L_random: 47.866, update: True
+Epoch: 29, tot time: 2.646day, epoch time: 117.602min, cptl time: 32.665min, L_train: 39.815, L_base: 39.833, L_random: 47.858, update: True
+Epoch: 30, tot time: 2.733day, epoch time: 117.476min, cptl time: 32.541min, L_train: 39.812, L_base: 39.817, L_random: 47.862, update: True
+Epoch: 31, tot time: 2.820day, epoch time: 117.302min, cptl time: 32.461min, L_train: 39.796, L_base: 39.806, L_random: 47.859, update: True
+Epoch: 32, tot time: 2.906day, epoch time: 117.405min, cptl time: 32.518min, L_train: 39.813, L_base: 39.796, L_random: 47.857, update: False
+Epoch: 33, tot time: 2.993day, epoch time: 117.430min, cptl time: 32.553min, L_train: 39.784, L_base: 39.798, L_random: 47.861, update: True
+Epoch: 34, tot time: 3.081day, epoch time: 118.550min, cptl time: 32.680min, L_train: 39.790, L_base: 39.786, L_random: 47.859, update: False
+Epoch: 35, tot time: 3.168day, epoch time: 117.360min, cptl time: 32.491min, L_train: 39.772, L_base: 39.781, L_random: 47.859, update: True
+Epoch: 36, tot time: 3.255day, epoch time: 117.579min, cptl time: 32.619min, L_train: 39.770, L_base: 39.778, L_random: 47.859, update: True
+Epoch: 37, tot time: 3.342day, epoch time: 117.625min, cptl time: 32.700min, L_train: 39.769, L_base: 39.768, L_random: 47.859, update: False
+Epoch: 38, tot time: 3.429day, epoch time: 117.936min, cptl time: 32.811min, L_train: 39.747, L_base: 39.763, L_random: 47.858, update: True
+Epoch: 39, tot time: 3.517day, epoch time: 117.849min, cptl time: 32.782min, L_train: 39.742, L_base: 39.748, L_random: 47.857, update: True
+Epoch: 40, tot time: 3.608day, epoch time: 123.455min, cptl time: 38.630min, L_train: 39.731, L_base: 39.748, L_random: 47.861, update: True
+Epoch: 41, tot time: 3.697day, epoch time: 118.704min, cptl time: 33.339min, L_train: 39.725, L_base: 39.730, L_random: 47.861, update: True
+Epoch: 42, tot time: 3.790day, epoch time: 125.520min, cptl time: 39.098min, L_train: 39.718, L_base: 39.726, L_random: 47.857, update: True
+Epoch: 43, tot time: 3.879day, epoch time: 119.498min, cptl time: 35.833min, L_train: 39.702, L_base: 39.715, L_random: 47.860, update: True
+Epoch: 44, tot time: 3.975day, epoch time: 128.840min, cptl time: 39.519min, L_train: 39.697, L_base: 39.703, L_random: 47.860, update: True
+Epoch: 45, tot time: 4.066day, epoch time: 122.405min, cptl time: 35.463min, L_train: 39.682, L_base: 39.695, L_random: 47.857, update: True
+Epoch: 46, tot time: 4.155day, epoch time: 119.252min, cptl time: 32.986min, L_train: 39.690, L_base: 39.684, L_random: 47.858, update: False
+Epoch: 47, tot time: 4.303day, epoch time: 205.903min, cptl time: 59.523min, L_train: 39.690, L_base: 39.683, L_random: 47.859, update: False
+Epoch: 48, tot time: 4.468day, epoch time: 222.629min, cptl time: 63.954min, L_train: 39.669, L_base: 39.682, L_random: 47.862, update: True
+Epoch: 49, tot time: 4.610day, epoch time: 189.692min, cptl time: 50.431min, L_train: 39.670, L_base: 39.669, L_random: 47.860, update: False
+Epoch: 50, tot time: 4.713day, epoch time: 139.983min, cptl time: 40.737min, L_train: 39.669, L_base: 39.676, L_random: 47.865, update: True
+Epoch: 51, tot time: 4.817day, epoch time: 139.931min, cptl time: 40.937min, L_train: 39.661, L_base: 39.665, L_random: 47.864, update: True
+Epoch: 52, tot time: 4.919day, epoch time: 137.507min, cptl time: 39.608min, L_train: 39.667, L_base: 39.663, L_random: 47.859, update: False
+Epoch: 53, tot time: 5.018day, epoch time: 133.379min, cptl time: 37.794min, L_train: 39.649, L_base: 39.662, L_random: 47.860, update: True
+Epoch: 54, tot time: 5.107day, epoch time: 119.887min, cptl time: 33.385min, L_train: 39.648, L_base: 39.650, L_random: 47.857, update: True
+Epoch: 55, tot time: 5.197day, epoch time: 122.190min, cptl time: 32.773min, L_train: 39.634, L_base: 39.646, L_random: 47.859, update: True
+Epoch: 56, tot time: 5.289day, epoch time: 124.190min, cptl time: 39.066min, L_train: 39.640, L_base: 39.636, L_random: 47.856, update: False
+Epoch: 57, tot time: 5.380day, epoch time: 121.575min, cptl time: 35.430min, L_train: 39.634, L_base: 39.637, L_random: 47.865, update: True
+Epoch: 58, tot time: 5.471day, epoch time: 123.277min, cptl time: 36.241min, L_train: 39.619, L_base: 39.634, L_random: 47.860, update: True
+Epoch: 59, tot time: 5.563day, epoch time: 124.761min, cptl time: 37.456min, L_train: 39.608, L_base: 39.617, L_random: 47.860, update: True
+Epoch: 60, tot time: 5.650day, epoch time: 117.580min, cptl time: 32.550min, L_train: 39.618, L_base: 39.611, L_random: 47.860, update: False
+Epoch: 61, tot time: 5.739day, epoch time: 120.696min, cptl time: 32.642min, L_train: 39.604, L_base: 39.612, L_random: 47.862, update: True
+Epoch: 62, tot time: 5.831day, epoch time: 123.408min, cptl time: 32.701min, L_train: 39.604, L_base: 39.608, L_random: 47.865, update: True
+Epoch: 63, tot time: 5.920day, epoch time: 120.926min, cptl time: 34.875min, L_train: 39.587, L_base: 39.599, L_random: 47.858, update: True
+Epoch: 64, tot time: 6.012day, epoch time: 124.863min, cptl time: 35.547min, L_train: 39.625, L_base: 39.593, L_random: 47.859, update: False
+Epoch: 65, tot time: 6.155day, epoch time: 197.263min, cptl time: 58.588min, L_train: 39.584, L_base: 39.593, L_random: 47.866, update: True
+Epoch: 66, tot time: 6.317day, epoch time: 219.030min, cptl time: 62.113min, L_train: 39.590, L_base: 39.583, L_random: 47.859, update: False
+Epoch: 67, tot time: 6.471day, epoch time: 207.404min, cptl time: 55.506min, L_train: 39.572, L_base: 39.585, L_random: 47.858, update: True
+Epoch: 68, tot time: 6.596day, epoch time: 169.363min, cptl time: 44.237min, L_train: 39.581, L_base: 39.576, L_random: 47.863, update: False
+Epoch: 69, tot time: 6.687day, epoch time: 123.572min, cptl time: 34.271min, L_train: 39.575, L_base: 39.574, L_random: 47.856, update: False
+Epoch: 70, tot time: 6.775day, epoch time: 118.500min, cptl time: 32.582min, L_train: 39.571, L_base: 39.575, L_random: 47.862, update: True
+Epoch: 71, tot time: 6.862day, epoch time: 117.750min, cptl time: 32.409min, L_train: 39.569, L_base: 39.570, L_random: 47.861, update: False
+Epoch: 72, tot time: 6.949day, epoch time: 117.254min, cptl time: 32.418min, L_train: 39.555, L_base: 39.567, L_random: 47.861, update: True
+Epoch: 73, tot time: 7.039day, epoch time: 121.848min, cptl time: 35.618min, L_train: 39.559, L_base: 39.560, L_random: 47.862, update: False
+Epoch: 74, tot time: 7.126day, epoch time: 117.663min, cptl time: 32.592min, L_train: 39.552, L_base: 39.555, L_random: 47.859, update: True
+Epoch: 75, tot time: 7.214day, epoch time: 119.496min, cptl time: 34.919min, L_train: 39.546, L_base: 39.555, L_random: 47.864, update: True
+Epoch: 76, tot time: 7.302day, epoch time: 117.499min, cptl time: 32.466min, L_train: 39.539, L_base: 39.542, L_random: 47.863, update: True
+Epoch: 77, tot time: 7.389day, epoch time: 117.494min, cptl time: 32.474min, L_train: 39.532, L_base: 39.541, L_random: 47.866, update: True
+Epoch: 78, tot time: 7.476day, epoch time: 117.463min, cptl time: 32.480min, L_train: 39.532, L_base: 39.531, L_random: 47.863, update: False
+Epoch: 79, tot time: 7.564day, epoch time: 119.272min, cptl time: 33.595min, L_train: 39.530, L_base: 39.532, L_random: 47.864, update: True
